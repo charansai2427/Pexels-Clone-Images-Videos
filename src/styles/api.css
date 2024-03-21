@@ -1,0 +1,111 @@
+*
+body{
+ margin:0;
+ width: 90%;
+ height:100%;
+ /* margin-top: 50ch; */
+}
+
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: flex;
+    margin-right: -90px;  
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 25px;
+    background-clip: padding-box;
+    margin-top:-6em;
+  }
+
+  .my-masonry-grid_column > div { 
+    margin-bottom: 1px;
+    
+  }
+  .my-masonry-grid_column > div > img { 
+    width:400px;
+  }
+ 
+
+  .load{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+
+    .love{
+    position: relative;
+cursor: pointer;
+&:hover{
+  color: rgb(82, 80, 80);
+}
+
+   } 
+.show{
+  height:70vh;
+  width:30vw;
+  display:block;
+  position: fixed;
+  background-color: white;
+  top:40px;
+  left:0%;
+  right:0%;
+  z-index: 1;
+  margin: auto;
+}
+.block{
+  display:none;
+}
+
+   .heart{
+   font-size: 1.5rem;
+  
+    color: transparent;
+    position:absolute;
+    top:1%;
+    right:0;
+    border:1px solid;
+    border-radius: 2px;
+   
+    &:hover{
+      color: white;
+      background-color:grey;
+    }
+   }
+
+   .collect{
+    font-size: 1.5rem;
+  
+    color: transparent;
+    position:absolute;
+    top:1%;
+    right:8%;
+    border:1px solid;
+    border-radius: 2px;
+   
+    &:hover{
+      color: white;
+      background-color:grey;
+    }
+   }
+
+   .download{
+    font-size: 1.5rem;
+  
+    color: transparent;
+    position:absolute;
+    bottom:2%;
+    right:5%;
+    border:1px solid;
+    border-radius: 2px;
+    &:hover{
+      color: rgb(246, 228, 228);
+      background-color:grey;
+    }
+   }
+
+   
